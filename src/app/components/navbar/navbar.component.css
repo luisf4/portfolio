@@ -1,0 +1,6 @@
+.navbarContent {
+    display: flex;
+}
+.navbarContent a {
+    padding: 30 15;
+}

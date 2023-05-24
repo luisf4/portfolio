@@ -1,0 +1,10 @@
+.main { 
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.mainText { 
+    padding: 0 50px 0 100px;
+}
+
