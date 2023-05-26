@@ -1,0 +1,8 @@
+.projects { 
+    display: flex;
+    padding-top: 100px;
+}
+.projects p{
+    font-weight: bold;
+    font-size: 40;
+}

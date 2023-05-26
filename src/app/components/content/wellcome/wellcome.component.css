@@ -1,0 +1,53 @@
+
+.wellcomePage {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    height: 85vh;
+    /* font-weight: bold; */
+}
+.mainText { 
+    padding: 0 100px 0 0px;
+}
+
+.mainTextBold{
+    font-weight: bold;
+    font-size: 40;
+
+}
+
+.image-with-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the values to achieve the desired shadow effect */
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    /* border: solid #ffffff; */
+    /* border-width: 3 3px 3px 3; */
+    transform: rotate(90deg);
+    animation: arrowAnimation 3s infinite;
+  }
+  
+  
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Add any additional styling for the parent container */
+  }
+  
+  @keyframes arrowAnimation {
+    0% {
+      transform: rotate(0deg) translate(0, 0);
+    }
+    50% {
+      transform: rotate(0deg) translate(0, 10px);
+    }
+    100% {
+      transform: rotate(0deg) translate(0, 0);
+    }
+  }

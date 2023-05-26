@@ -4,3 +4,20 @@
 .navbarContent a {
     padding: 30 15;
 }
+
+.nav-link {
+    color: silver;
+}
+.nav-link:hover {
+    color: snow;
+    animation: hoverAnimation 1s forwards;
+}
+ 
+@keyframes hoverAnimation {
+    0% {
+      transform: rotate(0deg) translate(0, 0);
+    }
+    100% {
+      transform: rotate(0deg) translate(0, -2px);
+    }
+  }
