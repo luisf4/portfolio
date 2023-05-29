@@ -39,7 +39,11 @@
     align-items: center;
     /* Add any additional styling for the parent container */
   }
-  
+.mainImage-img{
+  width: auto;
+  height: 50%;
+}
+
   @keyframes arrowAnimation {
     0% {
       transform: rotate(0deg) translate(0, 0);
@@ -49,5 +53,16 @@
     }
     100% {
       transform: rotate(0deg) translate(0, 0);
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .wellcomePage {
+      flex-direction: column;
+    }
+    .mainImage-img{
+      max-width: 85%;
+      height: auto;
     }
   }
