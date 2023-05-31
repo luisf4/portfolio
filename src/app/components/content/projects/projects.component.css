@@ -1,8 +1,113 @@
 .projects { 
     display: flex;
+    flex-direction: column;
     padding-top: 100px;
+}
+.projects-title h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.projects-title h3{
+    font-size: 16px;
+    color: #adadad;
+    font-weight: bold;
 }
 .projects p{
     font-weight: bold;
     font-size: 40;
+}
+.project-itens {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    width: 23vw;
+    height: 180px;
+    min-width: 400px;
+    border: 2px solid rgb(83, 83, 83);
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+.title p{
+    font-size: medium;
+    color: #86b5ff;
+    padding-left: 5px;
+    margin: 0;
+    font-size: 15px;
+}
+
+.description p {
+    font-size: medium;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+
+/* Project title */
+.rounded-icon {
+    border-radius: 50%;
+    width: 54px;
+}
+.projects-title-text h3{
+    font-weight: normal;
+}
+.projects-title-text {
+    width: 60%;
+}
+.project-title-perfil-text h2 {
+    font-size: 16px;
+}  
+.project-title-perfil-text h3 {
+    font-size: 14px;
+}
+.projects-title {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    padding-bottom: 40px;
+}
+.project-title-perfil {
+    display: flex;
+}
+.project-title-perfil-icon {
+    margin-right: 12px;
+}
+.description {
+    padding-top: 5px;
+}
+.ballHTML {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #E34C26; /* Adjust the background color as desired */
+  }
+.language {
+    display: flex;
+    align-items: center;
+}
+.icons p {
+    font-size: 12px;
+    margin: 0;
+    padding-left: 3px;
+    font-weight: normal;
+}
+.icons {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.stars {
+    padding-left: 10px;
+    display: flex;
+    /* align-items: center; */
 }
