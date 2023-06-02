@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     padding-top: 100px;
-    height: 85vh;
+    /* height: 85vh; */
     /* font-weight: bold; */
 }
 .mainText { 
@@ -40,23 +40,15 @@
     /* Add any additional styling for the parent container */
   }
 .mainImage-img{
-  width: auto;
-  height: 50%;
+  width: 30vw;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .apresentation p{
   color: #adadad;
 }
-  @keyframes arrowAnimation {
-    0% {
-      transform: rotate(0deg) translate(0, 0);
-    }
-    50% {
-      transform: rotate(0deg) translate(0, 10px);
-    }
-    100% {
-      transform: rotate(0deg) translate(0, 0);
-    }
-  }
 
   @media only screen and (max-width: 600px) {
 

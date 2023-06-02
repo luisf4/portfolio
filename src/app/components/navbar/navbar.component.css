@@ -3,21 +3,13 @@
 }
 .navbarContent a {
     padding: 30 15;
-}
+  font-weight: normal;
+  }
 
 .nav-link {
-    color: silver;
+    color: rgb(173, 173, 173);
 }
 .nav-link:hover {
-    color: snow;
-    animation: hoverAnimation 1s forwards;
+    color: #fff ;
 }
  
-@keyframes hoverAnimation {
-    0% {
-      transform: rotate(0deg) translate(0, 0);
-    }
-    100% {
-      transform: rotate(0deg) translate(0, -2px);
-    }
-  }
