@@ -26,8 +26,6 @@
     align-items: center;
     width: 40px;
     height: 40px;
-    /* border: solid #ffffff; */
-    /* border-width: 3 3px 3px 3; */
     transform: rotate(90deg);
     animation: arrowAnimation 3s infinite;
   }
