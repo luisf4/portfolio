@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     padding-top: 100px;
+    padding-bottom: 100px;
     /* height: 85vh; */
     /* font-weight: bold; */
 }
@@ -17,9 +18,6 @@
 
 }
 
-.image-with-shadow {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the values to achieve the desired shadow effect */
-}
 
 .arrow {
     display: flex;
@@ -63,3 +61,5 @@
       height: auto;
     }
   }
+
+
