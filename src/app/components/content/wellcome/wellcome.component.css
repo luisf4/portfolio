@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     padding-top: 100px;
+    padding-bottom: 100px;
     /* height: 85vh; */
     /* font-weight: bold; */
 }
@@ -10,15 +11,13 @@
     padding: 0 100px 0 0px;
 }
 
-.mainTextBold{
+.mainTextBold p{
     font-weight: bold;
     font-size: 40;
+    margin: 0;
 
 }
 
-.image-with-shadow {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the values to achieve the desired shadow effect */
-}
 
 .arrow {
     display: flex;
@@ -46,6 +45,10 @@
 }
 .apresentation p{
   color: #adadad;
+  margin: 0;
+  padding: 3px 0;
+  font-weight: normal;
+
 }
 
   @media only screen and (max-width: 600px) {
@@ -58,3 +61,5 @@
       height: auto;
     }
   }
+
+

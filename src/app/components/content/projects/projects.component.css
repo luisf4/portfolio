@@ -1,7 +1,7 @@
 .projects { 
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 .projects-title h2{
     font-size: 24px;
@@ -111,3 +111,11 @@
     display: flex;
     /* align-items: center; */
 }
+
+
+.ballDart {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #00B4AB; /* Adjust the background color as desired */
+  }

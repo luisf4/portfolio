@@ -1,7 +1,7 @@
 .showcase { 
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 .showcase-title h2{
     font-size: 24px;
