@@ -57,9 +57,14 @@
       flex-direction: column;
     }
     .mainImage-img{
-      max-width: 85%;
+      width: 80vw;
       height: auto;
+      padding-top: 50px;
+      justify-content: center;
+      align-items: center;
     }
+
+
   }
 
 

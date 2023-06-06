@@ -50,3 +50,13 @@
     background-position: center;
 
 }
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .showcase-item {
+        padding-top: 50px;
+    }
+
+  }
