@@ -119,3 +119,19 @@
     border-radius: 50%;
     background-color: #00B4AB; /* Adjust the background color as desired */
   }
+
+  
+  @media only screen and (max-width: 600px) {
+
+    .projects-title {
+        display: flex;
+        flex-direction: column;
+    }
+    .project-title-perfil {
+        padding-top: 40px;
+    }
+    .project-item {
+        margin-bottom: 40px;
+    }
+
+  }

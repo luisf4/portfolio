@@ -13,3 +13,23 @@
     color: #fff ;
 }
 
+.logo-site {
+    padding-top: 15px;
+    width: 100px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .logo-site {
+        padding-top: 15px;
+        width: 100px;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+  }
